@@ -8,9 +8,11 @@
 // var coinFlip
 
 // Create a do while loop.
-do {
+// do {var coinFlip = parseInt(prompt("Enter number of times Heads comes up in a row.")
 
-}   while ()
+// }   while (isNaN(times) || times <=0) {
+//     (Must be Heads, if Tails the game ends);
+// }
 
 // Within the do while loop assign a randomly generated number to You will have to use the same Math formula that you used in the previous assignment 
 // to get this number.
