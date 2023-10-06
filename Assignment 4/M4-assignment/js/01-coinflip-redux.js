@@ -1,11 +1,14 @@
 // Step 1 Begin your application by declaring a variable called coinFlip. Do not assign the variable a number just yet.
 // var coinFlip
 
-// Step 2 Create a for loop that loops a certain amount of times. The amount of times that the for loop executes will be collected from the user via a prompt.
-for (let i = 1; i < 10; i++)
-again = prompt('Run application again? (y or n)', 'y');
+// Step 2 Create a for loop that loops a certain amount of times. The amount of times that the for loop executes will be collected from the user via a
+// prompt.
+// let sum = 0;
+// for (let i = 1; i < 10; i++)
+// again = prompt('Run application again? (y or n)', 'y');
 
-// Step 3 Within the for loop assign a randomly generated number to You will have to use the same Math formula that you used in the previous assignment to get this number.
+// Step 3 Within the for loop assign a randomly generated number to You will have to use the same Math formula that you used in the previous assignment to
+// get this number.
 // console.log(prompt(‘Select Heads or Tails));
 // var coinFlip = Math.round(Math.random()) + 1;
 
