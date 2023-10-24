@@ -4,12 +4,63 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>M5 Assignment</title>
-    <script src="js/01-functions-practice.js"></script>
-    <!--<script src="js/02-rock-paper-scissors.js"></script>-->
-    <!--<script src="js/03-basic-calculator.js"></script>-->
+    <title>Assignment 7: Employee Management System</title>
+    <style>
+        .card           {border: 3px solid pink;}
+        output          {font-size: 0.8em;}
+    </style>
 </head>
 <body>
-    
+    <header id="main-header" class="bg-dark text-white p-4 mb-3">
+        <div class="container-fluid">
+            <h1 class="header-title">Employee Management System</h1>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+                <div id="main" class="card card-body">
+                    <form action="" id="addForm" onchange="inputChange(event)">
+                        <label for="id">8-Digit Employee ID</label><br>
+                        <input type="text" maxlength="8" required id="id" class="form-control"><br>
+                        <br>
+                        <label for="name">Full Name</label><br>
+                        <input type="text" required id="name" class="form-control"><br>
+                        <br>
+                        <label for="extension">4-Digit Extension</label><br>
+                        <input type="text" maxlength="4" required id="extension" class="form-control"><br>
+                        <br>
+                        <label for="email">Email</label><br>
+                        <input type="email" required id="email" class="form-control"><br>
+                        <br>
+                        <label for="department">Department</label><br>
+                        <select id="department" required class="form-control">
+                            <option value="Select Department"></option>
+                            <option value="Administrative">Administrative</option>
+                            <option value="Engineering">Engineering</option>
+                            <option value="Executive">Executive</option>
+                            <option value="Marketing">Marketing</option>
+                            <option value="QA">Quality Assurance</option>
+                            <option value="Sales">Sales</option>
+                        </select><br>
+                        <br>
+                        <input type="submit" class="btn btn-dark" value="Add Employee">
+                        <script type="text/javascript">
+                    </form>
+                </div>
+            </div>
+        </div> 
+    </div>
 </body>
-</html>
+<script>
+    function inputChange(event) {
+        event.preventDefault(),
+         console.log("ID:", document.getElementById("id").value);
+         console.log("Name:", document.getElementById("name").value);
+         console.log("Extension:", document.getElementById("extension").value);
+         console.log("Email:", document.getElementById("email").value);
+         console.log("Department:", document.getElementById("department").value);
+    }
+</script>
+</html> 
