@@ -1,0 +1,140 @@
+// $(document).ready(function() {
+   // Employee data
+//     let employees = [
+//         {
+//             id: 1,
+//             firstName: "John",
+//             lastName: "Doe",
+//             position: "Manager",
+//             contactDetails: "john.doe@example.com",
+//             status: "active"
+//         },
+//         {
+//             id: 2,
+//             firstName: "Jane",
+//             lastName: "Smith",
+//             position: "Developer",
+//             contactDetails: "jane.smith@example.com",
+//             status: "inactive"
+//         }
+//     ];
+ 
+    // Display employee list
+    // function displayEmployees() {
+    //     let tableBody = $("#employee-list tbody");
+    //     tableBody.empty();
+ 
+    //     for (let employee of employees) {
+    //         let row = `
+    //             <tr>
+    //                 <td>${employee.firstName}</td>
+    //                 <td>${employee.lastName}</td>
+    //                 <td>${employee.position}</td>
+    //                 <td>${employee.contactDetails}</td>
+    //                 <td>${employee.status}</td>
+    //                 <td>
+    //                     <button class="btn btn-primary btn-sm edit-employee" data-id="${employee.id}">Edit</button>
+    //                     <button class="btn btn-danger btn-sm delete-employee" data-id="${employee.id}">Delete</button                    </td>
+    //             </tr>
+    //         `;
+    //         tableBody.append(row);
+    //     }
+    // }
+ 
+    // Add new employee
+    // $("#addEmployeeForm").submit(function(event) {
+    //     event.preventDefault();
+ 
+    //     let firstName = $("#firstName").val();
+    //     let lastName = $("#lastName").val();
+    //     let position = $("#position").val();
+    //     let contactDetails = $("#contactDetails").val();
+    //     let status = $("#status").val();
+ 
+    //     let newEmployee = {
+    //         id: employees.length + 1,
+    //         firstName: firstName,
+    //         lastName: lastName,
+    //         position: position,
+    //         contactDetails: contactDetails,
+    //         status: status
+    //     };
+ 
+    //     employees.push(newEmployee);
+    //     displayEmployees();
+ 
+    //     $("#addEmployeeModal").modal("hide");
+    //     $("#addEmployeeForm")[0].reset();
+    // });
+ 
+    // Edit employee
+    // $(document).on("click", ".edit-employee", function() {
+    //     let employeeId = $(this).data("id");
+    //     let employee = employees.find(emp => emp.id === employeeId);
+ 
+    //     $("#editEmployeeId").val(employee.id);
+    //     $("#editFirstName").val(employee.firstName);
+    //     $("#editLastName").val(employee.lastName);
+    //     $("#editPosition").val(employee.position);
+    //     $("#editContactDetails").val(employee.contactDetails);
+    //     $("#editStatus").val(employee.status);
+ 
+    //     $("#editEmployeeModal").modal("show");
+    // });
+ 
+    // $("#editEmployeeForm").submit(function(event) {
+    //     event.preventDefault();
+ 
+    //     let employeeId = $("#editEmployeeId").val();
+    //     let firstName = $("#editFirstName").val();
+    //     let lastName = $("#editLastName").val();
+    //     let position = $("#editPosition").val();
+    //     let contactDetails = $("#editContactDetails").val();
+    //     let status = $("#editStatus").val();
+ 
+    //     let employee = employees.find(emp => emp.id === employeeId);
+    //     employee.firstName = firstName;
+    //     employee.lastName = lastName;
+    //     employee.position = position;
+    //     employee.contactDetails = contactDetails;
+    //     employee.status = status;
+ 
+    //     displayEmployees();
+ 
+    //     $("#editEmployeeModal").modal("hide");
+    // });
+ 
+    // Delete employee
+    // $(document).on("click", ".delete-employee", function() {
+    //     let employeeId = $(this).data("id");
+    //     employees = employees.filter(emp => emp.id !== employeeId);
+    //     displayEmployees();
+    // });
+ 
+    // Initial display of employee list
+//     displayEmployees();
+// });
+// {
+//     function inputChange(event) {
+//         event.preventDefault(),
+//          console.log("ID:", document.getElementById("id").value);
+//          console.log("Name:", document.getElementById("name").value);
+//          console.log("Extension:", document.getElementById("extension").value);
+//          console.log("Email:", document.getElementById("email").value);
+//          console.log("Department:", document.getElementById("department").value);
+//     }
+// }
+// Assuming you have two text boxes with ids "textbox1" and "textbox2"
+// let textbox1 = document.getElementById("textbox1");
+// let textbox2 = document.getElementById("textbox2");
+
+// Retrieve the values from the text boxes
+// let value1 = textbox1.value;
+// let value2 = textbox2.value;
+
+// Display the values in the console (for example)
+// console.log("Value from textbox 1: ", value1);
+// console.log("Value from textbox 2: ", value2);
+
+// Update the table with the new value
+// employeeCountCell.innerText = currentEmployeeCount.toString();
